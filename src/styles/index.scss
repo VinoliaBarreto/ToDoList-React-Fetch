@@ -1,13 +1,53 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background-image: url("https://us.123rf.com/450wm/jpanudda/jpanudda1905/jpanudda190500007/127521197-top-view-of-empty-to-do-list-with-colored-pens-paper-clip-and-white-caspia-flower-bouquet-on-pastel-.jpg?ver=6");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    background-color: transparent;
+    max-width: 20rem;
+    box-shadow: 0 4px 8px 0 #f3b4bf #f7abb8;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 0.3rem;
+    margin-left: 1rem;
+}
+h1 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: #FFB8C1 solid 2px;
+    color: #EDB874;
+}
 
-*/
+li {
+    border-bottom: #FFB8C1 solid 1px;
+    list-style-type: none;
+    text-align: start;
+    background-color: #FFB8C1;
+    border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+li:hover {
+    list-style-type: none;
+    text-align: start;
+    background-color:#EDB874 ;
+    border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+
+}
+
+p {
+ margin-bottom: 0;
+ margin-left: 0.4rem;
+ padding-top: 0.3rem;
+ padding-bottom: 0.3rem;
+}
+ol {
+    margin-top:1rem;
+    padding: 0px;
+}
